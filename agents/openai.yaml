@@ -1,0 +1,4 @@
+interface:
+  display_name: "会话交接"
+  short_description: "先洁癖收尾，补齐分层规则，弹窗确认过程稿恢复与删除，再生成交接"
+  default_prompt: "使用 $session-handoff 完成本轮洁癖收尾、分层规则与交接，并弹窗确认过程稿。"
