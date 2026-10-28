@@ -1,4 +1,4 @@
 interface:
-  display_name: "会话交接"
-  short_description: "先洁癖收尾，补齐分层规则，弹窗确认过程稿恢复与删除，再生成交接"
-  default_prompt: "使用 $session-handoff 完成本轮洁癖收尾、分层规则与交接，并弹窗确认过程稿。"
+  display_name: "会话管理"
+  short_description: "按需初始化会话、管理文件夹，并完成渐进式交接与过程文件清理确认"
+  default_prompt: "使用 $session-management，根据当前任务选择会话初始化、文件夹管理或交接与收尾模块。"
