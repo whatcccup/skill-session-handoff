@@ -32,7 +32,7 @@ neat-freak也可以通过可读技能资源或用户提供的主文档及按需�
 | skill_roots / skill_resource_base | 宿主技能列表、配置或原生资源标识；相对引用基于技能位置而非工作目录 |
 | init_action | 是否存在、可调用及真实产物；不能调用则走Codex本地化初始化 |
 | file_tools / shell / search | 当前可用读写和检索方式；无终端不执行Shell，无rg不强装 |
-| confirm_method | 允许用于许可请求的表单或明确对话回复；无回复不执行删除 |
+| confirm_method | 收尾删除按[弹窗工具选择](confirmation-tools.md)核对工具名称、模式与批准用途；清单要求见交接模块 |
 | handoff_path / history_path | 项目既有约定优先；新项目默认根文件，不自动搬迁 |
 | neat_freak_ref | 已安装技能实际路径或宿主可读取资源，不能套用别人的本机路径 |
 
@@ -49,7 +49,7 @@ neat-freak也可以通过可读技能资源或用户提供的主文档及按需�
 | 豆包工作 | 已有项目规则显式读取；当前环境没有可调用/init时，使用模块一内置流程；固定规则文件自动加载及磁盘技能目录仍未核实 | 官方介绍支持自建、导入本地技能及手动选择；以当前宿主可访问资源为准，本地电脑与云端工作区分开 |
 | Kimi Code CLI | 官方/init生成AGENTS；是否可调用现场确认 | 用户技能 `$KIMI_CODE_HOME/skills`（未设时 `~/.kimi-code/skills`）及 `~/.agents/skills`；项目层和启动参数优先级按配置核对。显式调用 `/skill:session-management`；`--skills-dir` 可替代自动发现路径 |
 
-原生/init存在不等于Agent能代用户执行。未知平台或未知模式使用显式读取与当前可用文件工具/对话确认；仅用户要求初始化时调用Codex本地化初始化；不因此自动安装CLI或修改全局设置。
+原生/init存在不等于Agent能代用户执行。未知平台或未知模式使用显式读取与当前可用文件工具；收尾删除确认遵循[交接模块](handoff.md#过程文件的完整清单及选择)的弹窗要求；仅用户要求初始化时调用Codex本地化初始化；不因此自动安装CLI或修改全局设置。
 
 ## 规则正文只维护一份
 

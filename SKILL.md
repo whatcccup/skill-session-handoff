@@ -3,7 +3,7 @@ name: session-management
 description: "会话管理：按需处理会话初始化、文件夹管理、会话交接与收尾。用于新项目初始化、恢复工作上下文、按目录规范归位文件，以及用户明确要求交接或结束时；不因普通对话自动建目录或清理。"
 metadata:
   slug: session-management
-  version: "2.0.0"
+  version: "2.0.1"
   displayName: "会话管理"
   summary: "按需初始化、文件夹管理与渐进式会话交接；改名和过程文件删除经用户确认。"
   homepage: "https://github.com/whatcccup/skill-session-handoff"
@@ -21,7 +21,7 @@ metadata:
 |---|---|---|
 | 初始化项目、接续会话 | [会话初始化](references/initialization.md) | 初始化按原生命令或内置Codex本地化流程生成指南；接续只读取规则与当前状态 |
 | 新建业务目录、归位或整理文件 | [文件夹管理](references/folders.md) | 按已确认规范建目录或整理；不把进入目录当整理授权 |
-| 明确交接、结束、更新HANDOFF | [交接与收尾](references/handoff.md) | neat-freak核对、清理选择、渐进式交接 |
+| 明确交接、结束、更新HANDOFF | [交接与收尾](references/handoff.md) | neat-freak核对、弹窗确认清理、渐进式交接 |
 
 模块间按实际需要引用，不循环调用总入口。
 
