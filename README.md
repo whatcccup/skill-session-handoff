@@ -17,6 +17,6 @@
 
 交接依赖neat-freak，先复用已有安装，缺失时按[依赖说明](references/installation.md)处理。只读当前任务需要的参考文档。
 
-## 版本2.0.0
+## 版本2.0.1
 
-初始化已内置；文件夹管理与交接独立；交接只保留当前状态，过程按需读取。完整规则见[SKILL.md](SKILL.md)。
+初始化已内置；文件夹管理与交接独立；交接只保留当前状态，过程按需读取。删除必须使用允许批准用途的弹窗；新增Codex、Claude Code及其他宿主的[工具选择说明](references/confirmation-tools.md)，无可用工具时保留文件并报告具体原因。完整规则见[SKILL.md](SKILL.md)。
